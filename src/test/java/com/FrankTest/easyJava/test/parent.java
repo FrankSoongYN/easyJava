@@ -2,7 +2,7 @@ package com.FrankTest.easyJava.test;
 
 public class parent {
 	
-	public static String name="Parent";
+	public  String name="Parent";
 	
 	public  parent(){
 		System.out.println(this.name);

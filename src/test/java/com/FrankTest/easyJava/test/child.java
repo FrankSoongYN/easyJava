@@ -2,7 +2,7 @@ package com.FrankTest.easyJava.test;
 
 public class child extends parent {
 
-public static String name="child";
+public String name="child";
 	
 
 	public child(){
@@ -10,7 +10,7 @@ public static String name="child";
 	}
 	
 	public child(int i){
-		System.out.println(this.name);
+		//System.out.println(this.name);
 		System.out.println(i);
 	}
 	
